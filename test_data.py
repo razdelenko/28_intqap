@@ -10,7 +10,7 @@ class Invalid_Data:
     last_name_31_char = 'КольцовКольцовКольцовКольцовКол'
     password_21_char = '123qwertyqwertyqwerty'
     password_no_Lower = 'qwerty'
-    password_9_char = 'qwerty123'
+    password_9_char = 'qwertY123'
     password_not_contain_digit = 'Qwertyuiop'
     xss = '<script>alert(123)</script>'
     email_without_domain = 'abc123@mail'
